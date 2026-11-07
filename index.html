@@ -4,6 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lofi & Chill Sanctuary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #4a426e;
+        }
+        .gallery {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 250px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
     <h1>Lofi & Chill Sanctuary</h1>
@@ -20,9 +53,11 @@
     </ul>
 
     <h2>Music Image Gallery</h2>
-    <img src="images/music1.jpg" alt="Vintage sheet music with leaves">
-    <img src="images/music2.jpg" alt="A musician playing the piano">
-    <img src="images/music3.jpg" alt="A youth watching a stunning sunset over fields">
+    <div class="gallery">
+        <img src="images/music1.jpg" alt="Vintage sheet music with leaves">
+        <img src="images/music2.jpg" alt="A musician playing the piano">
+        <img src="images/music3.jpg" alt="A youth watching a stunning sunset over fields">
+    </div>
 
     <h2>Explore More</h2>
     <p>You can listen to more relaxing piano music on <a href="https://www.youtube.com/watch?v=KZqHfuxIEJs&list=LL&index=3&t=3324s" target="_blank">YouTube Piano Relaxing Video</a>.</p>
